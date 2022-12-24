@@ -1,9 +1,10 @@
 package cn.wangziwei.mybatis.mapper;
 
 import cn.wangziwei.mybatis.pojo.LogOpEmp;
-import cn.wangziwei.mybatis.pojo.LogOpEmpExample;
+
 import java.util.List;
 
+import cn.wangziwei.mybatis.pojo.LogOpEmpExample;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

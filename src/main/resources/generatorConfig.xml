@@ -33,5 +33,6 @@
         <!-- domainObjectName属性指定生成出来的实体类的类名 -->
         <table tableName="log_op" domainObjectName="LogOpEmp"/>
         <table tableName="log" domainObjectName="LogEmp"/>
+        <table tableName="people" domainObjectName="PeopleEmp"/>
     </context>
 </generatorConfiguration>
