@@ -86,7 +86,7 @@ public class MysqlDBConfig {
      */
     private Resource[] getMapperResources() throws IOException {
         PathMatchingResourcePatternResolver patternResolver = new PathMatchingResourcePatternResolver();
-        Resource[] resources = patternResolver.getResources("classpath*:cn/wangziwei/mybatis/*Mapper.xml");
+        Resource[] resources = patternResolver.getResources("cn/wangziwei/mybatis/*Mapper.xml");
         return ArrayUtils.addAll(resources);
     }
 
